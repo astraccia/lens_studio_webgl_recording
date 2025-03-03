@@ -46,7 +46,7 @@ It will build the project in the folder `app`. Simply upload the files in the `a
 
 # Important:
 
-1) Important: your webserver should have a SSL certificate (https) in order to run the webApp
+1) Iour webserver should have a SSL certificate (https) in order to run the webApp
 
 2) Your Lens version should be compatible with the installed CameraKit version. You can change it on package.json:
 
