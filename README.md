@@ -18,6 +18,8 @@ Update the lens ID and the lens folder ID with the new lens ID and the new lens 
 
 # To build the project:
 
+This project uses npm and webpack, so you need npm installed on your computer in order to run and build the project.
+
 Go to the main folder and run the following command to install all the dependencies for the project:
 
 ```
@@ -38,7 +40,20 @@ npm run build
 ```
 
 It will build the project in the folder `app`. Simply upload the files in the `app` folder to your web server.
-Important: your webserver should have a SSL certificate (https) in order to run the webApp
 
 
 
+
+# Important:
+
+1) Important: your webserver should have a SSL certificate (https) in order to run the webApp
+
+2) Your Lens version should be compatible with the installed CameraKit version. You can change it on package.json:
+
+```
+@snap/camera-kit": "^1.1.0",
+```
+
+You can find the minumum Lens version on your Lens Studio dashboard, lens-scheduler/groups, in the Min Web SDK Version column.
+
+3) Before you publish the production version of your Lens, you have to send it to Snapchat for approval. Once it's approved, you can use the Production API ID instead of the Development or Staging API IDs.
