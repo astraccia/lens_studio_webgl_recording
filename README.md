@@ -1,3 +1,14 @@
+# Before you start:
+
+You need to create a CameraKit app and connect your Lens to it. You can find detailed instructions on how to do it here:
+
+```
+https://developers.snap.com/camera-kit/home
+```
+
+Once you have your CameraKit app ready and your Lens connected to it (through a Lens Group), you can move on with the webAR app:
+
+
 # Update the code with your lens IDs:
 
 1. Go to file `src/main.js` and change the lines:
