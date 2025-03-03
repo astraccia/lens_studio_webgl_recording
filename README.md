@@ -12,7 +12,7 @@ Update YOUR_API_TOKEN with your Lens Studio CameraKit API Token
 const lens = await cameraKit.lensRepository.loadLens('your lens ID','your lens folder ID');
 ```
 
-Update the lens ID and the lens folder ID with the new lens ID and the new lens folder ID you will find here:
+Update the lens ID and the lens folder ID with the new lens ID and the new lens folder ID.
 
 
 
