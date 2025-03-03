@@ -21,8 +21,11 @@ async function main() {
       }
     });
 
+    //it will use the back camera. If you want to use the front camera (selfie mode), just change the facingMode to 'user' and the cameraType to 'front'
+
     const stream = await navigator.mediaDevices.getUserMedia({ video: {facingMode:'environment'} });
     const source = createMediaStreamSource(stream, { cameraType: 'back' });
+    
     await session.setSource(source);
 
     const lens = await cameraKit.lensRepository.loadLens('YOUR_LENS_ID','YOUR_GROUP_ID');
